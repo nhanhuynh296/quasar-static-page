@@ -8,11 +8,10 @@ function onClick() {
 </script>
 
 <template>
-  <q-page class="row content-center q-px-md text-center" @click="onClick">
+  <q-page class="row justify-center q-px-md text-center" @click="onClick">
     <div class="col-md-6 col-xs-12">
       <q-img src="~assets/love-envelope.jpg" />
       <div class=" text-h5">
-
         <q-btn color="black" label="💌 Nathan got you a love letter 💌"/>
 
       </div>
@@ -22,7 +21,3 @@ function onClick() {
   </q-page>
 
 </template>
-
-<style scoped>
-
-</style>
